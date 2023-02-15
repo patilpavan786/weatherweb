@@ -1,0 +1,32 @@
+body{
+  background-image: url('https://c1.wallpaperflare.com/preview/586/645/192/japan-sea-winter-road-hokkaido-sea-it-was-cloudy-weather.jpg');
+ 
+  background-size: cover;
+}
+
+.weaterWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+.header h1{
+ 
+  font-size: 40px;
+}
+.SearchFilter{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 4rem 0;
+ 
+}
+.weatherCard{
+  display: flex;
+  justify-content: center;
+}
